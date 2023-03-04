@@ -11,6 +11,9 @@
 				<router-link to="/durian">Durian</router-link>
 			</li>
 			<li>
+				<router-link to="/kiwi">Kiwi</router-link>
+			</li>
+            <li>
 				<router-link to="/about">About me</router-link>
 			</li>
 		</ul>
