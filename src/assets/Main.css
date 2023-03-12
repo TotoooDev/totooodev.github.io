@@ -8,14 +8,14 @@ html body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 
 .centered {
   margin: 0;
   position: absolute;
   top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
   text-align: center;
 }
 
@@ -44,8 +44,8 @@ a, a:visited {
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(center);
-            transform: translateY(center);
+    -webkit-transform: translateY(-25vh);
+            transform: translateY(-25vh);
     opacity: 1;
   }
 }
@@ -56,8 +56,8 @@ a, a:visited {
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(center);
-            transform: translateY(center);
+    -webkit-transform: translateY(-25vh);
+            transform: translateY(-25vh);
     opacity: 1;
   }
 }

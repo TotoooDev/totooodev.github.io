@@ -8,8 +8,8 @@
 </script>
 
 <template>
-	<router-view/>
 	<NavBar/>
+	<router-view/>
 </template>
 
 <style>
